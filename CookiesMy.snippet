@@ -70,9 +70,6 @@ hostname = open.e.189.cn, farm.api.ddxq.mobi, user-api.smzdm.com, luka-graphql.l
 # 获取中国电信 Cookie
 ^https:\/\/(e\.189\.cn\/store\/user|open\.e\.189\.cn\/api\/logbox\/oauth2\/loginSubmit\.do) url script-request-header https://raw.githubusercontent.com/FoKit/Scripts/main/scripts/get_10000_cookie.js
 
-# 吾爱获取Cookie 
-https:\/\/www\.52pojie\.cn\/home\.php\? url script-request-header https://raw.githubusercontent.com/NobyDa/Script/master/52pojie-DailyBonus/52pojie.js
-
 #www.iios.fun签到网页版+看视频，每日获得3积分
 #hostname = www.iios.fun
 ^https:\/\/www\.iios\.fun\/api\/(base|user\/info)$ url script-request-header https://raw.githubusercontent.com/wf021325/qx/master/task/iios.js
